@@ -1,11 +1,47 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Modelo de Forms</title>
 </head>
 <body>
+        <p>Forms</p>
+
+        <form action="">
+            <label for="txtNome">Nome:</label>
+            <input type="text" id="txtNome" name="txtNome">
+            <br>
+            <br>
+            <!--Size Serve para tamanho da caixa do Input-->
+            <!-- MaxLenght para quantidade de Caracteres-->
+            <label for="txtSobrenome">Sobrenome:</label>
+            <input type="text" id="txtSobrenome" name="txtSobrenome" maxlength="10" size="5">
+            <br>
+            <br>
+            <!-- Required para deixar o campo obrigatório-->
+            <label for="txtEmail">E-mail:</label>
+            <input type="email" id="txtEmail" name="txtEmail" required>
+            <br>
+            <br>
+            <label for="txtSenha">Senha:</label>
+            <input type="password" id="txtSenha" name="txtSenha">
+            <br>
+            <br>
+            <label for="txtData">Data:</label>
+            <input type="date" id="txtData" name="txtData">
+            <br>
+            <br>
+            <label for="txtFileUpload">Arquivo:</label>
+            <input type="file" id="txtFileUpload" name="txtFileUpload">
+            <br>
+            <br>
+            <label for="txtIdade">Idade:</label>
+            <input type="number" id="txtIdade" name="txtIdade">
+            <br>
+            <br>
+            <button>Enviar</button>
+        </form>
     
 </body>
 </html>
